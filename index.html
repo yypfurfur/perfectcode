@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style/webstyle.css">
+
+</head>
+<body>
+    <!--整体区域-->
+	<div class="main">
+	    <!--头部区域-->
+		<header>
+			<div class="hd-top">
+				<div class="hd-top-logo"><a href="#"><img src="images/hd-logo.png" alt="友好速搭" onmouseover="show()" onmouseout='hide()'></a><img src='images/code.png' id='img_code'></div>
+				<div class="hd-top-nav">
+					<ul>
+						<li><a href="#">首页</a><i></i></li>
+						<li><a href="#">优势</a><i></i></li>
+						<li><a href="#">案例</a><i></i></li>
+						<li><a href="#">价格</a><i></i></li>
+						<li><a href="#">博客</a><i></i></li>
+						<li><a href="#">更多</a><i></i></li>
+					</ul>
+				</div>
+				<div class="hd-top-button">
+					<a href="#"><div class="hd-top-btn1 hd-top-btn">免费使用</div></a>
+					<a href="#"><div class="hd-top-btn2 hd-top-btn">登录后台</div></a>
+				</div>
+				<div class="hd-content-info">
+					<h1>更懂品牌的电商服务平台</h1>
+					<span ><img src="images/hd-circle.png" alt="圆圈">快速搭建电商网站</span>
+					<span ><img src="images/hd-circle.png" alt="圆圈">多渠道营销打造品牌</span>
+					<a href="#"><div class="hd-content-info-btn">免费使用</div></a>
+				</div>
+				<div class="hd-content-img"><img src="images/hd-content-img.png" alt="手机电脑展示"></div>
+				<div class="parallel"></div>
+			</div>
+			
+		</header> 
+		<script type="text/javascript"></script>
+		<!--内容区域-->
+		<div class="content">
+			<div class="ct-top">
+				<p>满足不同的你 对品牌电商的需求</p>
+				<div class="ct-top-img">
+					<ul>
+						<li><div id="a1" class="a1" onclick="changeTalkBox(this.id)"><div class="icon1 icon"></div>已在社交媒体经营品牌？<i > </i></div></li>
+						<li><div id="a2" class="a1" onclick="changeTalkBox(this.id)"><div class="icon2 icon"></div>已入驻电商平台？<i> </i></div></li>
+						<li><div id="a3" class="a1" onclick="changeTalkBox(this.id)"><div class="icon3 icon"></div>已有官网或App？<i > </i></div></li>
+						<li><div id="a4" class="a1" onclick="changeTalkBox(this.id)"><div class="icon4 icon"></div>已有线下销售渠道？<i > </i></div></li>
+					</ul>
+				</div>
+				<div class="ct-top-talk">
+   				    	<!-- <span class="ct-top-talk-box" ></span> -->
+   				    	<img id="box" class="ct-top-talk-box" src="images/talk1.png">
+   				</div>
+			</div>
+			<div class="ct-info">
+				<p>用心打造 ， 为你带来友好体验</p>
+				<div class="ct-info-content">
+					<div class="ct-info-box">
+						<div class="ct-info-img1 ct-info-img"><img src="images/ct-info-img1.png"></div>
+						<div class="ct-info-text1 ct-info-text">
+							<p>电脑站+手机站+微信站同步生成</p>
+							<span>统一后台管理，简单设置打造独特站点，同步支持电脑、手机、微信中的流畅体验</span>
+						</div>
+					</div>
+					<div class="ct-info-box">
+						<div class="ct-info-img2 ct-info-img"><img src="images/ct-info-img2.png"></div>
+						<div class="ct-info-text2 ct-info-text">
+							<p>一站搞定域名和空间</p>
+							<span>站内直接购买域名，智能绑定到店铺，抛掉繁琐的域名管理，独立空间，免受不必要牵连</span>
+						</div>
+					</div>
+					<div class="ct-info-box">
+						<div class="ct-info-img1 ct-info-img"><img src="images/ct-info-img3.png"></div>
+						<div class="ct-info-text1 ct-info-text">
+							<p>灵活的主题模板</p>
+							<span>一键安装主题，并可灵活切换，除可视化修改外，还可通过前端编程，随心所欲修改页面</span>
+						</div>
+					</div>
+					<div class="ct-info-box">
+						<div class="ct-info-img2 ct-info-img"><img src="images/ct-info-img4.png"></div>
+						<div class="ct-info-text2 ct-info-text">
+							<p>搜索排名优化</p>
+							<span>自动生成网站地图，此外还可自定义爬虫协议、网页描述和标题、网址，多种方式提升搜索排名</span>
+						</div>
+					</div>
+					<div class="ct-info-box">
+						<div class="ct-info-img1 ct-info-img"><img src="images/ct-info-img5.png"></div>
+						<div class="ct-info-text1 ct-info-text">
+							<p>便捷的帐号体系</p>
+							<span>除免登录购买以外，还支持3种注册方式，覆盖6种社交帐号的登录和绑定，不错过任何顾客</span>
+						</div>
+					</div>
+					<div class="ct-info-box">
+						<div class="ct-info-img2 ct-info-img"><img src="images/ct-info-img6.png"></div>
+						<div class="ct-info-text2 ct-info-text">
+							<p>全面的收款方式</p>
+							<span>内置支付宝、微信支付等8种主流支付通道，不错失任何一笔生意</span>
+						</div>
+					</div>
+					<div class="ct-info-box">
+						<div class="ct-info-img1 ct-info-img"><img src="images/ct-info-img7.png"></div>
+						<div class="ct-info-text1 ct-info-text">
+							<p>精细的物流规则</p>
+							<span>内置快递、自提等7种物流方式，精准到地级市的规划，精准掌控物流规则和成本</span>
+						</div>
+					</div>
+					<div class="ct-info-box">
+						<div class="ct-info-img2 ct-info-img"><img src="images/ct-info-img8.png"></div>
+						<div class="ct-info-text2 ct-info-text">
+							<p>完善的通知方案</p>
+							<span>灵活定制和开启提醒通知，通过邮件和短信，及时通知订单状态，让顾客感受到更细致的服务</span>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="ct-footer">
+				<a href="#"><div class="ct-footer-btn">查看更多优势</div></a>
+			</div>
+		</div>
+		<!--底部区域-->
+		<footer>
+			<div class="footer-title">
+				<p>品牌电商从此开启</p>
+				<div class="footer-title-input"><input type="text" value="          填写注册邮箱" onfocus="if (this.value =='          填写注册邮箱'){this.value =''}" onblur="if (this.value ==''){this.value='          填写注册邮箱'}" ></input></div>
+				<div class="footer-title-input"><input type="text" value="          填写注册信息" onfocus="if (this.value =='          填写注册信息'){this.value =''}" onblur="if (this.value ==''){this.value='          填写注册信息'}" ></input></div>
+				<a class="rightnow-a" href="#"><div class="footer-title-btn">立即免费使用</div></a>
+			</div>
+			<div class="footer-bottom">
+				<div class="footer-nav">
+					<ul>
+						<li><a href="#">关于我们</a></li>
+						<li><a href="#">联系我们</a></li>
+						<li><a href="#">加入我们</a></li>
+						<li><a href="#">服务条款</a></li>
+					</ul>
+				</div>
+				
+				<div class="footer-logo">
+					<a href="#"><div class="footer-img1 "></div><span class="span-l">工商网监电子标识</span></a>
+					<a href="#"><div class="footer-img2 "></div><span>可信网站身份验证</span></a>
+				</div>
+				<p><a href="http://www.miitbeian.gov.cn/state/outPortal/loginPortal.action;jsessionid=73vDXnWTrSjKd1c9XMQL6lCGQnLpMGlvg3GvDmSpQTX20cPvSS9z!582237453">粤ICP备12043194号</a>&nbsp; &nbsp;© 2016 youhaosuda.com All rights reserved.</p>
+			</div>
+		</footer>
+	</div>
+	<script type="text/javascript">
+
+        var img_code=document.getElementById('img_code');
+        function show(){ 
+            img_code.style.display='block';
+        }
+        function hide(){
+            img_code.style.display='none';
+        }
+   
+		function changeTalkBox(id){
+			var a1=document.getElementById('a1');
+			var a2=document.getElementById('a2');
+			var a3=document.getElementById('a3');
+			var a4=document.getElementById('a4');
+			var lc1=a1.lastChild; 
+			var lc2=a2.lastChild; 
+			var lc3=a3.lastChild;  
+			var lc4=a4.lastChild;  
+			if(id=="a1")
+			{	
+			document.getElementById("box").src="images/talk1.png";	
+            lc1.className='first';
+            lc2.className=' ';
+            lc3.className=' ';
+            lc4.className=' ';
+			}	
+			 else if(id=="a2")
+			{
+			document.getElementById("box").src="images/talk2.png";	
+            lc2.className='first';
+            lc1.className=' ';
+            lc3.className=' ';
+            lc4.className=' ';
+			}	
+			else if(id=="a3")
+			{
+			document.getElementById("box").src="images/talk3.png";	 
+            lc3.className='first';
+            lc2.className=' ';
+            lc1.className=' ';
+            lc4.className=' ';
+			}
+			else if(id=="a4")
+			{
+			document.getElementById("box").src="images/talk4.png";	  
+            lc4.className='first';
+            lc2.className=' ';
+            lc3.className=' ';
+            lc1.className=' ';
+			}
+
+			}
+
+	</script>
+</body>
+</html>
